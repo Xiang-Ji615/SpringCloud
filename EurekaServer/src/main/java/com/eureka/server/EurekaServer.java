@@ -10,5 +10,6 @@ public class EurekaServer {
     public static void main(String[] args) {
         SpringApplication.run(EurekaServer.class, args);
         String s = "test";
+        System.out.println("Hello world");
     }
 }
